@@ -561,7 +561,7 @@ Table of contents
 		}
 
 
-	hr { visibility:hidden; border:none clear: both; margin: 10px 0 22px; height: 2px; }	
+	hr { visibility:hidden; border:none; clear: both; margin: 10px 0 22px; height: 2px; }	
 	hr.borderTop { visibility:visible; border-style:dotted;  margin: 40px 0 0px; }
 	hr.borderTop.noSpacing { visibility:visible; border-style:dotted;  margin: 0px 0 0px; }	
 	hr.borderBottom { visibility:visible; border-style:dotted;  margin: -2px 0 0px; }	
