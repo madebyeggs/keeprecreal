@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<!-- Basic Page Needs
+	  	================================================== -->
+		<meta charset="utf-8">
+		<title>Keep Recording | ‘A professional recording studio setup in the heart of the Welsh countryside</title>
+		<meta name="description" content="‘a professional recording studio setup in the heart of the Welsh countryside">
+		<meta name="author" content="madebyeggs.com">
+		
+		<!-- Mobile Specific Metas
+		================================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		<!-- CSS
+		================================================== -->
+		
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+		
+	    <link rel="stylesheet" type="text/css"  href="assets/font-style2.css" id="set_font" >        
+	    <link rel="stylesheet" type="text/css"  href="assets/color-white.css" id="set_color">
+		
+		<%= stylesheet_link_tag "application", :media => "all" %>
+		
+		<!-- Included CSS files 
+		================================================== -->
+
+	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+		
+		<script type="text/javascript" src="assets/modernizr.min.js"></script>
+		
+	  	<%= csrf_meta_tags %>
+	
+	</head>
+	
+	<body>
+		
+		<%= render 'layouts/header' %>
+		<%= yield %>
+		<%= javascript_include_tag "application" %>
+		<%= render 'layouts/footer' %>
+
+	</body>
+	
+</html>
