@@ -2806,7 +2806,7 @@ ul.tools li.date {
 			}			
 		}
 		  
-	@media only screen and (min-width: 321px) and and (max-width: 600px) {
+	@media only screen and (min-width: 321px) and (max-width: 600px) {
 		.itemOver .overlay .popup_overlay .popup_head{ 
 			margin-top:-125px;
 			}

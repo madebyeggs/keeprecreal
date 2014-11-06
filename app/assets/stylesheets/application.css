@@ -17,7 +17,7 @@
  *= require animate
  *= require main.min
  *= require style
- *= require base.min
+ *= require base
  *= require font-style2
  *= require color-white
  *= require elastislide
