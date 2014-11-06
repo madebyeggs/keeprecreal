@@ -119,8 +119,8 @@ body, .pageFade { background-color:#fbfbfb; }
 	}
 
 .header ul.nav li .active + .arrow  {
-	background-image: url(../images/menu_arrow_active.png);
-	background-image: -Webkit-image-set(url(../images/menu_arrow_active.png) 1x, url(../images/menu_arrow_active@2x.png) 2x);	
+	background-image: url(assets/menu_arrow_active.png);
+	background-image: -Webkit-image-set(url(assets/menu_arrow_active.png) 1x, url(assets/menu_arrow_active@2x.png) 2x);	
 	}	
 
 @media only screen and (max-width:991px ) {

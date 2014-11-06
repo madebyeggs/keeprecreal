@@ -32,7 +32,7 @@
 //= require jquery.mixitup.min
 //= require jquery.magnific-popup.min
 //= require jquery.support.plugin.min
-//= require custom.min
+//= require custom
 //= require video.min
 //= require bigvideo
 //= require jquery.slider.min

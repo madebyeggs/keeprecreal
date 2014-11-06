@@ -1067,7 +1067,7 @@ function map_initialize() {
 	var map;
 	var openedInfoWindow = null;
 	
-	mapPos = new google.maps.LatLng(34.05223, -118.24368);
+	mapPos = new google.maps.LatLng(51.811807, -2.715917);
 	latlng = mapPos;
 
 	var MY_MAPTYPE_ID = 'custom_style';

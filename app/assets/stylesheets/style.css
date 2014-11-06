@@ -131,6 +131,7 @@ Table of contents
 		
 	.upperCase{
 		text-transform: uppercase;
+		color:#000000!important;
 	}
 	
 	.font_medium.first { padding-left:0px; }
@@ -2208,11 +2209,11 @@ Table of contents
 		overflow:hidden;
 		z-index:0;
 		
-		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-		filter: alpha(opacity=40);
-		-moz-opacity: .40;
-		-khtml-opacity: .40;
-		opacity: .40;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+		filter: alpha(opacity=50);
+		-moz-opacity: .50;
+		-khtml-opacity: .50;
+		opacity: .50;
 		}
 		
 	.overlayBg2 {
