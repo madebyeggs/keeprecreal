@@ -65,6 +65,8 @@ Table of contents
 
 /* #Typography
 ================================================== */
+
+	.background {background-color:#ff0000;}
 	
 	
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -2968,6 +2970,8 @@ Table of contents
 	a.lazyload, a.lazyload_single,a.lazyload_masonry { 
 		min-height:75px; min-width:100%; display:block; text-align:center; padding-top:25px; text-transform:uppercase; 
 		}
+		
+		.marginTopBottom {margin:20px 0px;}
 
 	.imageAlignCenter{
 		display:inline-block; width:100%; margin:0 auto; text-align:center;
