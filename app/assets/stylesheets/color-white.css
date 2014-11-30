@@ -1368,8 +1368,9 @@ a.fxEmbossBtn { color:#000000; }
 	}
 	
 .largeText_boxed{		
-	border:5px #000000 solid;
-	color:#000000 !important;
+	border:5px #ffffff solid;
+	background-color:rgba(0,0,0,0.4);
+	color:#ffffff !important;
 	}
 .largeText_boxed.dark{		
 	border:5px #000000 solid;

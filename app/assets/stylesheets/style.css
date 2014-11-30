@@ -131,7 +131,18 @@ Table of contents
 		
 	.upperCase{
 		text-transform: uppercase;
-		color:#000000!important;
+		color:#ffffff!important;
+	}
+	
+	.upperCaseDark{
+		text-transform: uppercase;
+		color:#202326!important;
+	}
+	
+	.bigger {
+		font-size:20px;
+		line-height:1.4em;
+		margin:70px 20px 70px 0px;
 	}
 	
 	.font_medium.first { padding-left:0px; }
@@ -1310,6 +1321,13 @@ Table of contents
 	.font_awesome li a.twitter i, .font_awesome_2x li a.twitter i { 
 		color:#00aced !important;
 		}
+		
+	.font_awesome li a.soundcloud, .font_awesome_2x li a.twitter {		
+		border: 1px solid #ff4f01;
+		}
+	.font_awesome li a.soundcloud i, .font_awesome_2x li a.twitter i { 
+		color:#ff4f01 !important;
+		}
 	
 	.font_awesome li a.youtube, .font_awesome_2x li a.youtube {		
 		border: 1px solid #bb0000;
@@ -2209,11 +2227,11 @@ Table of contents
 		overflow:hidden;
 		z-index:0;
 		
-		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-		filter: alpha(opacity=50);
-		-moz-opacity: .50;
-		-khtml-opacity: .50;
-		opacity: .50;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+		filter: alpha(opacity=0);
+		-moz-opacity: .0;
+		-khtml-opacity: .0;
+		opacity: .0;
 		}
 		
 	.overlayBg2 {

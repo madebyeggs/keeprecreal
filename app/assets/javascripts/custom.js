@@ -1067,7 +1067,7 @@ function map_initialize() {
 	var map;
 	var openedInfoWindow = null;
 	
-	mapPos = new google.maps.LatLng(51.811807, -2.715917);
+	mapPos = new google.maps.LatLng(51.7667315, -2.853585);
 	latlng = mapPos;
 
 	var MY_MAPTYPE_ID = 'custom_style';
@@ -1157,7 +1157,7 @@ function map_initialize() {
 		new google.maps.Point(0,0),
 		new google.maps.Point(65, 50));
 
-	/*var companyPos = new google.maps.LatLng(57.0442, 9.9116);*/
+	/*var companyPos = new google.maps.LatLng(51.7667315, -2.853585);*/
 
 	var companyMarker = new google.maps.Marker({
 		position: companyPos,
