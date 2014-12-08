@@ -329,10 +329,10 @@ nav_white.png: nav_white-c92f8827230531e3aa7fe4e87f148fd8.png
 nav_white/index.png: nav_white-c92f8827230531e3aa7fe4e87f148fd8.png
 nav_white@2x.png: nav_white@2x-64ecd35610f7d7101b022e06d2c42960.png
 nav_white@2x/index.png: nav_white@2x-64ecd35610f7d7101b022e06d2c42960.png
-news/1.jpg: news/1-e4b17fedd49177825aa76cab189b40af.jpg
-news/1/index.jpg: news/1-e4b17fedd49177825aa76cab189b40af.jpg
-news/2.jpg: news/2-3cbe8d5eb174b41256a8a4f6fad0f5bc.jpg
-news/2/index.jpg: news/2-3cbe8d5eb174b41256a8a4f6fad0f5bc.jpg
+news/first.jpg: news/first-e4b17fedd49177825aa76cab189b40af.jpg
+news/first/index.jpg: news/first-e4b17fedd49177825aa76cab189b40af.jpg
+news/second.jpg: news/second-3cbe8d5eb174b41256a8a4f6fad0f5bc.jpg
+news/second/index.jpg: news/second-3cbe8d5eb174b41256a8a4f6fad0f5bc.jpg
 next_previous_button.png: next_previous_button-4f7bf4750de97a0baeb90c47e04c517a.png
 next_previous_button/index.png: next_previous_button-4f7bf4750de97a0baeb90c47e04c517a.png
 next_previous_button@2x.png: next_previous_button@2x-9f8d662efa25444c0587b13fb3a36e80.png
