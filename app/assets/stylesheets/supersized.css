@@ -15,8 +15,8 @@ body { height:100%; }
 	img { border:none; }
 	
 	#supersized-loader { position:absolute; top:50%; left:50%; z-index:0; width:60px; height:60px; margin:-30px 0 0 -30px; text-indent:-999em; 
-		background:url(../images/loading.gif) no-repeat center center;
-		background-image: -Webkit-image-set(url(../images/loading.gif) 1x, url(../images/loading@2x.gif) 2x);  /* Image for Retina */
+		background:url(../assets/loading.gif) no-repeat center center;
+		background-image: -Webkit-image-set(url(../assets/loading.gif) 1x, url(../assets/loading@2x.gif) 2x);  /* Image for Retina */
 		}
 	
 	#supersized {  display:block; position:fixed; left:0px; top:0px; overflow:visible; height:100%; width:100%; z-index:-999; padding:0px 0px 0px 0px;}
@@ -33,8 +33,8 @@ body { height:100%; }
 			#supersized li.prevslide { z-index:-20; }
 			#supersized li.activeslide { z-index:-10; }
 			#supersized li.image-loading { 
-				background:#fff url(../images/loading.gif) no-repeat center center; 
-				background-image: -Webkit-image-set(url(../images/loading.gif) 1x, url(../images/loading@2x.gif) 2x);  /* Image for Retina */
+				background:#fff url(../assets/loading.gif) no-repeat center center; 
+				background-image: -Webkit-image-set(url(../assets/loading.gif) 1x, url(../assets/loading@2x.gif) 2x);  /* Image for Retina */
 				width:100%; height:100%; z-index:10000000; }
 				#supersized li.image-loading img{ visibility:hidden; }
 			#supersized li.prevslide img, #supersized li.activeslide img{ display:inline; }

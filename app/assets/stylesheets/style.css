@@ -394,6 +394,8 @@ Table of contents
 	
 	iframe {  border:0px; }	
 	
+	.link_video img {max-width:100%;width:100%;}
+	
 
 /* #Image figure style */	
 	figure{
@@ -473,8 +475,8 @@ Table of contents
 		top:7px;
 		width:35px;
 		height:25px;
-		background-image : url(../images/sprite.png);
-		background-image: -Webkit-image-set(url(../images/sprite.png) 1x, url(../images/sprite@2x.png) 2x);  /* Image for Retina */
+		background-image : url(../assets/sprite.png);
+		background-image: -Webkit-image-set(url(../assets/sprite.png) 1x, url(../assets/sprite@2x.png) 2x);  /* Image for Retina */
 		background-position: 100% -120px;
 		background-repeat:no-repeat;
 		}
@@ -687,50 +689,50 @@ Table of contents
 	.list1, .list2, .list3, .list4, .list5, .list6, .list7, .list8, .list9, .list10{	
 		padding:0px 5px 2px 28px; line-height:18px; list-style-type:none; text-align:left;  display:block; margin-bottom:13px;
 		}
-	.list1{	background:url(../images/list/icon1.png) no-repeat left; 
-			background-image: -Webkit-image-set(url(../images/list/icon1.png) 1x, url(../images/list/icon1@2x.png) 2x);  /* Image for Retina */	}
-	.list2{ background:url(../images/list/icon2.png) no-repeat left;
-			background-image: -Webkit-image-set(url(../images/list/icon2.png) 1x, url(../images/list/icon2@2x.png) 2x);  /* Image for Retina */	}
-	.list3{	background:url(../images/list/icon3.png) no-repeat left;
-			background-image: -Webkit-image-set(url(../images/list/icon3.png) 1x, url(../images/list/icon3@2x.png) 2x);  /* Image for Retina */	}
-	.list4{	background:url(../images/list/icon4.png) no-repeat left;
-			background-image: -Webkit-image-set(url(../images/list/icon4.png) 1x, url(../images/list/icon4@2x.png) 2x);  /* Image for Retina */	}
-	.list5{	background:url(../images/list/icon5.png) no-repeat left;
-			background-image: -Webkit-image-set(url(../images/list/icon5.png) 1x, url(../images/list/icon5@2x.png) 2x);  /* Image for Retina */	}
-	.list6{	background:url(../images/list/icon6.png) no-repeat left;
-			background-image: -Webkit-image-set(url(../images/list/icon6.png) 1x, url(../images/list/icon6@2x.png) 2x);  /* Image for Retina */	}
-	.list7{	background:url(../images/list/icon7.png) no-repeat left;
-			background-image: -Webkit-image-set(url(../images/list/icon7.png) 1x, url(../images/list/icon7@2x.png) 2x);  /* Image for Retina */	}
-	.list8{	background:url(../images/list/icon8.png) no-repeat left;
-			background-image: -Webkit-image-set(url(../images/list/icon8.png) 1x, url(../images/list/icon8@2x.png) 2x);  /* Image for Retina */	}
-	.list9{	background:url(../images/list/icon9.png) no-repeat left;
-			background-image: -Webkit-image-set(url(../images/list/icon9.png) 1x, url(../images/list/icon9@2x.png) 2x);  /* Image for Retina */	}
-	.list10{ background:url(../images/list/icon10.png) no-repeat left;
-				background-image: -Webkit-image-set(url(../images/list/icon10.png) 1x, url(../images/list/icon10@2x.png) 2x);  /* Image for Retina */	}
+	.list1{	background:url(../assets/list/icon1.png) no-repeat left; 
+			background-image: -Webkit-image-set(url(../assets/list/icon1.png) 1x, url(../assets/list/icon1@2x.png) 2x);  /* Image for Retina */	}
+	.list2{ background:url(../assets/list/icon2.png) no-repeat left;
+			background-image: -Webkit-image-set(url(../assets/list/icon2.png) 1x, url(../assets/list/icon2@2x.png) 2x);  /* Image for Retina */	}
+	.list3{	background:url(../assets/list/icon3.png) no-repeat left;
+			background-image: -Webkit-image-set(url(../assets/list/icon3.png) 1x, url(../assets/list/icon3@2x.png) 2x);  /* Image for Retina */	}
+	.list4{	background:url(../assets/list/icon4.png) no-repeat left;
+			background-image: -Webkit-image-set(url(../assets/list/icon4.png) 1x, url(../assets/list/icon4@2x.png) 2x);  /* Image for Retina */	}
+	.list5{	background:url(../assets/list/icon5.png) no-repeat left;
+			background-image: -Webkit-image-set(url(../assets/list/icon5.png) 1x, url(../assets/list/icon5@2x.png) 2x);  /* Image for Retina */	}
+	.list6{	background:url(../assets/list/icon6.png) no-repeat left;
+			background-image: -Webkit-image-set(url(../assets/list/icon6.png) 1x, url(../assets/list/icon6@2x.png) 2x);  /* Image for Retina */	}
+	.list7{	background:url(../assets/list/icon7.png) no-repeat left;
+			background-image: -Webkit-image-set(url(../assets/list/icon7.png) 1x, url(../assets/list/icon7@2x.png) 2x);  /* Image for Retina */	}
+	.list8{	background:url(../assets/list/icon8.png) no-repeat left;
+			background-image: -Webkit-image-set(url(../assets/list/icon8.png) 1x, url(../assets/list/icon8@2x.png) 2x);  /* Image for Retina */	}
+	.list9{	background:url(../assets/list/icon9.png) no-repeat left;
+			background-image: -Webkit-image-set(url(../assets/list/icon9.png) 1x, url(../assets/list/icon9@2x.png) 2x);  /* Image for Retina */	}
+	.list10{ background:url(../assets/list/icon10.png) no-repeat left;
+				background-image: -Webkit-image-set(url(../assets/list/icon10.png) 1x, url(../assets/list/icon10@2x.png) 2x);  /* Image for Retina */	}
 	
 	/* White List */
 	.list1_white, .list2_white, .list4_white, .list5_white, 
 	.list6_white, .list7_white, .list8_white, .list9_white, .list10_white{	
 		padding:0px 5px 2px 28px; line-height:18px; list-style-type:none; text-align:left;  display:block; margin-bottom:13px;
 		}
-	.list1_white{	background:url(../images/list/icon1_white.png) no-repeat left;
-					background-image: -Webkit-image-set(url(../images/list/icon1_white.png) 1x, url(../images/list/icon1_white@2x.png) 2x);  /* Image for Retina */	}
-	.list2_white{ 	background:url(../images/list/icon2_white.png) no-repeat left;
-					background-image: -Webkit-image-set(url(../images/list/icon2_white.png) 1x, url(../images/list/icon2_white@2x.png) 2x);  /* Image for Retina */	}
-	.list4_white{	background:url(../images/list/icon4_white.png) no-repeat left;
-					background-image: -Webkit-image-set(url(../images/list/icon4_white.png) 1x, url(../images/list/icon4_white@2x.png) 2x);  /* Image for Retina */	}
-	.list5_white{	background:url(../images/list/icon5_white.png) no-repeat left;
-					background-image: -Webkit-image-set(url(../images/list/icon5_white.png) 1x, url(../images/list/icon5_white@2x.png) 2x);  /* Image for Retina */	}
-	.list6_white{	background:url(../images/list/icon6_white.png) no-repeat left;
-					background-image: -Webkit-image-set(url(../images/list/icon6_white.png) 1x, url(../images/list/icon6_white@2x.png) 2x);  /* Image for Retina */	}
-	.list7_white{	background:url(../images/list/icon7_white.png) no-repeat left;
-					background-image: -Webkit-image-set(url(../images/list/icon7_white.png) 1x, url(../images/list/icon7_white@2x.png) 2x);  /* Image for Retina */	}
-	.list8_white{	background:url(../images/list/icon8_white.png) no-repeat left;
-					background-image: -Webkit-image-set(url(../images/list/icon8_white.png) 1x, url(../images/list/icon8_white@2x.png) 2x);  /* Image for Retina */	}
-	.list9_white{	background:url(../images/list/icon9_white.png) no-repeat left;
-					background-image: -Webkit-image-set(url(../images/list/icon9_white.png) 1x, url(../images/list/icon9_white@2x.png) 2x);  /* Image for Retina */	}
-	.list10_white{ 	background:url(../images/list/icon10_white.png) no-repeat left;
-					background-image: -Webkit-image-set(url(../images/list/icon10_white.png) 1x, url(../images/list/icon10_white@2x.png) 2x);  /* Image for Retina */	}
+	.list1_white{	background:url(../assets/list/icon1_white.png) no-repeat left;
+					background-image: -Webkit-image-set(url(../assets/list/icon1_white.png) 1x, url(../assets/list/icon1_white@2x.png) 2x);  /* Image for Retina */	}
+	.list2_white{ 	background:url(../assets/list/icon2_white.png) no-repeat left;
+					background-image: -Webkit-image-set(url(../assets/list/icon2_white.png) 1x, url(../assets/list/icon2_white@2x.png) 2x);  /* Image for Retina */	}
+	.list4_white{	background:url(../assets/list/icon4_white.png) no-repeat left;
+					background-image: -Webkit-image-set(url(../assets/list/icon4_white.png) 1x, url(../assets/list/icon4_white@2x.png) 2x);  /* Image for Retina */	}
+	.list5_white{	background:url(../assets/list/icon5_white.png) no-repeat left;
+					background-image: -Webkit-image-set(url(../assets/list/icon5_white.png) 1x, url(../assets/list/icon5_white@2x.png) 2x);  /* Image for Retina */	}
+	.list6_white{	background:url(../assets/list/icon6_white.png) no-repeat left;
+					background-image: -Webkit-image-set(url(../assets/list/icon6_white.png) 1x, url(../assets/list/icon6_white@2x.png) 2x);  /* Image for Retina */	}
+	.list7_white{	background:url(../assets/list/icon7_white.png) no-repeat left;
+					background-image: -Webkit-image-set(url(../assets/list/icon7_white.png) 1x, url(../assets/list/icon7_white@2x.png) 2x);  /* Image for Retina */	}
+	.list8_white{	background:url(../assets/list/icon8_white.png) no-repeat left;
+					background-image: -Webkit-image-set(url(../assets/list/icon8_white.png) 1x, url(../assets/list/icon8_white@2x.png) 2x);  /* Image for Retina */	}
+	.list9_white{	background:url(../assets/list/icon9_white.png) no-repeat left;
+					background-image: -Webkit-image-set(url(../assets/list/icon9_white.png) 1x, url(../assets/list/icon9_white@2x.png) 2x);  /* Image for Retina */	}
+	.list10_white{ 	background:url(../assets/list/icon10_white.png) no-repeat left;
+					background-image: -Webkit-image-set(url(../assets/list/icon10_white.png) 1x, url(../assets/list/icon10_white@2x.png) 2x);  /* Image for Retina */	}
 
 	a .list1, a .list2, a .list3, a .list4, a .list5, a .list6, a .list7, a .list8, a .list9, a .list10,
 	a .list1_white, a .list2_white, a .list4_white, a .list5_white, 
@@ -1090,60 +1092,60 @@ Table of contents
 		}
 	
 	.social_bookmarks .twitter {
-		background: transparent url(../images/social/black/twitter.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/black/twitter.png) 1x, url(../images/social/black/twitter@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/black/twitter.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/black/twitter.png) 1x, url(../assets/social/black/twitter@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .facebook {
-		background: transparent url(../images/social/black/facebook.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/black/facebook.png) 1x, url(../images/social/black/facebook@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/black/facebook.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/black/facebook.png) 1x, url(../assets/social/black/facebook@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .gplus {
-		background: transparent url(../images/social/black/gplus.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/black/gplus.png) 1x, url(../images/social/black/gplus@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/black/gplus.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/black/gplus.png) 1x, url(../assets/social/black/gplus@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .linkedin {
-		background: transparent url(../images/social/black/linkedin.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/black/linkedin.png) 1x, url(../images/social/black/linkedin@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/black/linkedin.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/black/linkedin.png) 1x, url(../assets/social/black/linkedin@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .rss {
-		background: transparent url(../images/social/black/rss.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/black/rss.png) 1x, url(../images/social/black/rss@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/black/rss.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/black/rss.png) 1x, url(../assets/social/black/rss@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .digg {
-		background: transparent url(../images/social/black/digg.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/black/digg.png) 1x, url(../images/social/black/digg@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/black/digg.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/black/digg.png) 1x, url(../assets/social/black/digg@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .delicious {
-		background: transparent url(../images/social/black/delicious.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/black/delicious.png) 1x, url(../images/social/black/delicious@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/black/delicious.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/black/delicious.png) 1x, url(../assets/social/black/delicious@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .youtube {
-		background: transparent url(../images/social/black/youtube.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/black/youtube.png) 1x, url(../images/social/black/youtube@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/black/youtube.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/black/youtube.png) 1x, url(../assets/social/black/youtube@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .vimeo {
-		background: transparent url(../images/social/black/vimeo.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/black/vimeo.png) 1x, url(../images/social/black/vimeo@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/black/vimeo.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/black/vimeo.png) 1x, url(../assets/social/black/vimeo@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .skype {
-		background: transparent url(../images/social/black/skype.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/black/skype.png) 1x, url(../images/social/black/skype@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/black/skype.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/black/skype.png) 1x, url(../assets/social/black/skype@2x.png) 2x);  /* Image for Retina */	}
 		
 	.social_bookmarks .dribbble {
-		background: transparent url(../images/social/black/dribbble.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/black/dribbble.png) 1x, url(../images/social/black/dribbble@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/black/dribbble.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/black/dribbble.png) 1x, url(../assets/social/black/dribbble@2x.png) 2x);  /* Image for Retina */	}
 		
 	.social_bookmarks .ichat {
-		background: transparent url(../images/social/black/ichat.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/black/ichat.png) 1x, url(../images/social/black/ichat@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/black/ichat.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/black/ichat.png) 1x, url(../assets/social/black/ichat@2x.png) 2x);  /* Image for Retina */	}
 		
 	.social_bookmarks .deviantart {
-		background: transparent url(../images/social/black/deviantart.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/black/deviantart.png) 1x, url(../images/social/black/deviantart@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/black/deviantart.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/black/deviantart.png) 1x, url(../assets/social/black/deviantart@2x.png) 2x);  /* Image for Retina */	}
 		
 	.social_bookmarks .stumbleupon {
-		background: transparent url(../images/social/black/stumbleupon.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/black/stumbleupon.png) 1x, url(../images/social/black/stumbleupon@2x.png) 2x);  /* Image for Retina */	}	
+		background: transparent url(../assets/social/black/stumbleupon.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/black/stumbleupon.png) 1x, url(../assets/social/black/stumbleupon@2x.png) 2x);  /* Image for Retina */	}	
 		
 	.social_bookmarks .gplus:hover, .social_bookmarks .linkedin:hover, 
 	.social_bookmarks .twitter:hover, .social_bookmarks .facebook:hover, 
@@ -1158,60 +1160,60 @@ Table of contents
 	/* #White Theme*/	
 	
 	.social_bookmarks .twitter_white {
-		background: transparent url(../images/social/white/twitter.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/white/twitter.png) 1x, url(../images/social/white/twitter@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/white/twitter.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/white/twitter.png) 1x, url(../assets/social/white/twitter@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .facebook_white {
-		background: transparent url(../images/social/white/facebook.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/white/facebook.png) 1x, url(../images/social/white/facebook@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/white/facebook.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/white/facebook.png) 1x, url(../assets/social/white/facebook@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .gplus_white {
-		background: transparent url(../images/social/white/gplus.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/white/gplus.png) 1x, url(../images/social/white/gplus@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/white/gplus.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/white/gplus.png) 1x, url(../assets/social/white/gplus@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .linkedin_white {
-		background: transparent url(../images/social/white/linkedin.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/white/linkedin.png) 1x, url(../images/social/white/linkedin@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/white/linkedin.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/white/linkedin.png) 1x, url(../assets/social/white/linkedin@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .rss_white {
-		background: transparent url(../images/social/white/rss.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/white/rss.png) 1x, url(../images/social/white/rss@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/white/rss.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/white/rss.png) 1x, url(../assets/social/white/rss@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .digg_white {
-		background: transparent url(../images/social/white/digg.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/white/digg.png) 1x, url(../images/social/white/digg@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/white/digg.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/white/digg.png) 1x, url(../assets/social/white/digg@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .delicious_white {
-		background: transparent url(../images/social/white/delicious.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/white/delicious.png) 1x, url(../images/social/white/delicious@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/white/delicious.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/white/delicious.png) 1x, url(../assets/social/white/delicious@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .youtube_white {
-		background: transparent url(../images/social/white/youtube.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/white/youtube.png) 1x, url(../images/social/white/youtube@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/white/youtube.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/white/youtube.png) 1x, url(../assets/social/white/youtube@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .vimeo_white {
-		background: transparent url(../images/social/white/vimeo.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/white/vimeo.png) 1x, url(../images/social/white/vimeo@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/white/vimeo.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/white/vimeo.png) 1x, url(../assets/social/white/vimeo@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .skype_white {
-		background: transparent url(../images/social/white/skype.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/white/skype.png) 1x, url(../images/social/white/skype@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/white/skype.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/white/skype.png) 1x, url(../assets/social/white/skype@2x.png) 2x);  /* Image for Retina */	}
 		
 	.social_bookmarks .dribbble_white {
-		background: transparent url(../images/social/white/dribbble.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/white/dribbble.png) 1x, url(../images/social/white/dribbble@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/white/dribbble.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/white/dribbble.png) 1x, url(../assets/social/white/dribbble@2x.png) 2x);  /* Image for Retina */	}
 		
 	.social_bookmarks .ichat_white {
-		background: transparent url(../images/social/white/ichat.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/white/ichat.png) 1x, url(../images/social/white/ichat@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/white/ichat.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/white/ichat.png) 1x, url(../assets/social/white/ichat@2x.png) 2x);  /* Image for Retina */	}
 		
 	.social_bookmarks .deviantart_white {
-		background: transparent url(../images/social/white/deviantart.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/white/deviantart.png) 1x, url(../images/social/white/deviantart@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/white/deviantart.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/white/deviantart.png) 1x, url(../assets/social/white/deviantart@2x.png) 2x);  /* Image for Retina */	}
 		
 	.social_bookmarks .stumbleupon_white {
-		background: transparent url(../images/social/white/stumbleupon.png) top left no-repeat;
-		background-image: -Webkit-image-set(url(../images/social/white/stumbleupon.png) 1x, url(../images/social/white/stumbleupon@2x.png) 2x);  /* Image for Retina */	}
+		background: transparent url(../assets/social/white/stumbleupon.png) top left no-repeat;
+		background-image: -Webkit-image-set(url(../assets/social/white/stumbleupon.png) 1x, url(../assets/social/white/stumbleupon@2x.png) 2x);  /* Image for Retina */	}
 	
 	.social_bookmarks .gplus_white:hover, .social_bookmarks .linkedin_white:hover, 
 	.social_bookmarks .twitter_white:hover, .social_bookmarks .facebook_white:hover, 
@@ -1503,14 +1505,14 @@ Table of contents
 		position:relative;
 		right:-15px;
 		margin-bottom:10px;
-		background:url(../images/tweet_feed_icon.png) no-repeat left;
-		background-image: -Webkit-image-set(url(../images/tweet_feed_icon.png) 1x, url(../images/tweet_feed_icon@2x.png) 2x);  /* Image for Retina */
+		background:url(../assets/tweet_feed_icon.png) no-repeat left;
+		background-image: -Webkit-image-set(url(../assets/tweet_feed_icon.png) 1x, url(../assets/tweet_feed_icon@2x.png) 2x);  /* Image for Retina */
 		background-position: left bottom;
 		}
 	
 	.white_ver .tweet_feed_icon, .tweet_feed_icon.dark{
-		background:url(../images/tweet_feed_icon_black.png) no-repeat left;
-		background-image: -Webkit-image-set(url(../images/tweet_feed_icon.png) 1x, url(../images/tweet_feed_icon@2x.png) 2x);  /* Image for Retina */
+		background:url(../assets/tweet_feed_icon_black.png) no-repeat left;
+		background-image: -Webkit-image-set(url(../assets/tweet_feed_icon.png) 1x, url(../assets/tweet_feed_icon@2x.png) 2x);  /* Image for Retina */
 		background-position: left top;
 		}
 		
@@ -1805,6 +1807,7 @@ Table of contents
 			}
 		.thumbItem_holder.medium_size .thumbItem .medium_image{ width:274px; }
 		}
+		.page_header2 { border:0;margin:20px 0 0px 0;padding:10px 0 20px 0; }
 		
 	@media only screen and (min-width: 980px) and (max-width: 991px) {
 		.thumbItem_holder.medium_size .thumbItem{ 
@@ -2244,8 +2247,8 @@ Table of contents
 		opacity: .80;
 	}
 	
-	.overlayPattern{ background: url(../images/background_overlay.png) repeat scroll;  }	
-	.parallaxPattern{ background: url(../images/parallax_overlay.png) repeat scroll; }		
+	.overlayPattern{ background: url(../assets/background_overlay.png) repeat scroll;  }	
+	.parallaxPattern{ background: url(../assets/parallax_overlay.png) repeat scroll; }		
 	.fullScreenGallery_items .overlayPattern{ z-index:1; }		
 	.parallax.fixedBackground, .parallaxPattern.fixedBackground{  background-attachment:fixed !important; } 
 	.parallax.topHeaderBg{ background-position:center top !important; }	
@@ -2266,7 +2269,7 @@ Table of contents
 	.bg_pattern2{	
 		position:relative;	
 		background-color: #1a1a1a;
-		background-image: url(../images/bg_pattern2.jpg);
+		background-image: url(../assets/bg_pattern2.jpg);
 		background-attachment:scroll;
 		}	
 	
@@ -2606,19 +2609,19 @@ Table of contents
 		
 	.overlay.zoom {
 		display: block;
-		background: url(../images/overlay_zoom.png) no-repeat center center;
+		background: url(../assets/overlay_zoom.png) no-repeat center center;
 		zoom: 1;
 		}
 		
 	.overlay.link {
 		display: block;
-		background: url(../images/overlay_link.png) no-repeat center center;
+		background: url(../assets/overlay_link.png) no-repeat center center;
 		zoom: 1;
 		}
 	.overlay.detail{
 		display: block;
 		background: transparent;
-		background: url(../images/overlay_detail.png) no-repeat center center;
+		background: url(../assets/overlay_detail.png) no-repeat center center;
 		zoom: 1;
 		}
 		
@@ -2626,7 +2629,7 @@ Table of contents
 		display: block;
 		overflow:hidden;
 		background: transparent;
-		background: url(../images/overlay_social.png) no-repeat center center;
+		background: url(../assets/overlay_social.png) no-repeat center center;
 		zoom: 1;
 		}
 
@@ -2843,8 +2846,8 @@ Table of contents
 		cursor:pointer;
 		display:inline-block;
 		z-index:1000;
-		background : transparent url(../images/next_previous_button.png);
-		background-image: -Webkit-image-set(url(../images/next_previous_button.png) 1x, url(../images/next_previous_button@2x.png) 2x); 
+		background : transparent url(../assets/next_previous_button.png);
+		background-image: -Webkit-image-set(url(../assets/next_previous_button.png) 1x, url(../assets/next_previous_button@2x.png) 2x); 
 		background-position: 100% 0px;
 		background-repeat:no-repeat;
 		}
@@ -2858,8 +2861,8 @@ Table of contents
 		display:inline-block;
 		z-index:10000;
 		
-		background-image : url(../images/next_previous_button.png);
-		background-image : -Webkit-image-set(url(../images/next_previous_button.png) 1x, url(../images/next_previous_button@2x.png) 2x);  /* Image for Retina */
+		background-image : url(../assets/next_previous_button.png);
+		background-image : -Webkit-image-set(url(../assets/next_previous_button.png) 1x, url(../assets/next_previous_button@2x.png) 2x);  /* Image for Retina */
 		background-position: 0px 0px;
 		background-repeat:no-repeat;
 		}
@@ -2880,21 +2883,21 @@ Table of contents
 		z-index:10000;
 		display:none;
 		
-		background-image : url(../images/next_previous_button.png);
-		background-image : -Webkit-image-set(url(../images/next_previous_button.png) 1x, url(../images/next_previous_button@2x.png) 2x);  /* Image for Retina */
+		background-image : url(../assets/next_previous_button.png);
+		background-image : -Webkit-image-set(url(../assets/next_previous_button.png) 1x, url(../assets/next_previous_button@2x.png) 2x);  /* Image for Retina */
 		background-position: 50% 0px;
 		background-repeat:no-repeat;
 		}
 		
 	/* item Number */
 	a.next_button, a.previous_button, a.close_button {
-		background-image : url(../images/next_previous_button_white.png);
-		background-image: -Webkit-image-set(url(../images/next_previous_button_white.png) 1x, url(../images/next_previous_button_white@2x.png) 2x);  /* Image for Retina */
+		background-image : url(../assets/next_previous_button_white.png);
+		background-image: -Webkit-image-set(url(../assets/next_previous_button_white.png) 1x, url(../assets/next_previous_button_white@2x.png) 2x);  /* Image for Retina */
 		}
 	
 	.white_ver a.next_button, .white_ver a.previous_button, .white_ver a.close_button {
-		background-image : url(../images/next_previous_button.png);
-		background-image: -Webkit-image-set(url(../images/next_previous_button.png) 1x, url(../images/next_previous_button@2x.png) 2x);  /* Image for Retina */
+		background-image : url(../assets/next_previous_button.png);
+		background-image: -Webkit-image-set(url(../assets/next_previous_button.png) 1x, url(../assets/next_previous_button@2x.png) 2x);  /* Image for Retina */
 		}
 	
 	.close_pos {bottom:auto;  top:75px; right:5px; position:fixed; }
@@ -2999,7 +3002,7 @@ Table of contents
 	
 /* #Background Frame image Slideshow  */	
 	.frame_slideshow{
-		background:url(../images/slideshow_frame.png) no-repeat top center; 
+		background:url(../assets/slideshow_frame.png) no-repeat top center; 
 		background-size:100%;
 		}	
 	.frame_slideshow .slides{
@@ -3344,13 +3347,13 @@ Table of contents
 	
 	.mfp-arrow{ margin-top: -34px !important; }	
 	.mfp-arrow-right{
-		background-image:  url(../images/sprite.png) !important;
+		background-image:  url(../assets/sprite.png) !important;
 		background-position: -210px -40px !important;
 		}
 	
 	.mfp-arrow-left{
-		background-image:  url(../images/sprite.png) !important;
-		background-image: -Webkit-image-set(url(../images/sprite.png) 1x, url(../images/sprite@2x.png) 2x) !important;  /* Image for Retina */
+		background-image:  url(../assets/sprite.png) !important;
+		background-image: -Webkit-image-set(url(../assets/sprite.png) 1x, url(../assets/sprite@2x.png) 2x) !important;  /* Image for Retina */
 		background-position: 10px -40px !important;
 		}
 		

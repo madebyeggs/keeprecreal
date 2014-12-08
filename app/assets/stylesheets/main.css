@@ -208,13 +208,13 @@ Table of contents
 		}
 		
 	.white_ver .header ul.nav li .arrow  {
-		background-image: url(../images/menu_arrow_black.png);
-		background-image: -Webkit-image-set(url(../images/menu_arrow_black.png) 1x, url(../images/menu_arrow_black@2x.png) 2x);	
+		background-image: url(../assets/menu_arrow_black.png);
+		background-image: -Webkit-image-set(url(../assets/menu_arrow_black.png) 1x, url(../assets/menu_arrow_black@2x.png) 2x);	
 		}
 		
 	.header ul.nav li .arrow  {
-		background-image: url(../images/menu_arrow.png);
-		background-image: -Webkit-image-set(url(../images/menu_arrow.png) 1x, url(../images/menu_arrow@2x.png) 2x);	
+		background-image: url(../assets/menu_arrow.png);
+		background-image: -Webkit-image-set(url(../assets/menu_arrow.png) 1x, url(../assets/menu_arrow@2x.png) 2x);	
 		}
 				
 	.header_content>ul>li { 
@@ -771,8 +771,8 @@ Table of contents
 		}
 	
 	.footer_close .btn_icon{
-		background-image: url(../images/sprite.png);
-		background-image: -Webkit-image-set(url(../images/sprite.png) 1x, url(../images/sprite@2x.png) 2x);  /* Image for Retina */		
+		background-image: url(../assets/sprite.png);
+		background-image: -Webkit-image-set(url(../assets/sprite.png) 1x, url(../assets/sprite@2x.png) 2x);  /* Image for Retina */		
 		background-repeat:no-repeat;
 		}
 		
@@ -816,8 +816,8 @@ Table of contents
 		display:none;
 		width:45px; 
 		height:40px; 
-		background-image :url(../images/mobile_menu.png); 
-		background-image: -Webkit-image-set(url(../images/mobile_menu.png) 1x, url(../images/mobile_menu@2x.png) 2x);
+		background-image :url(../assets/mobile_menu.png); 
+		background-image: -Webkit-image-set(url(../assets/mobile_menu.png) 1x, url(../assets/mobile_menu@2x.png) 2x);
 		background-position: center center;
 		background-repeat:no-repeat;	
 		cursor:pointer;
@@ -1028,8 +1028,8 @@ Table of contents
 		}
 		
 	.pgScrollUp .btn_icon{
-		background-image : url(../images/scrollup.png);
-		background-image: -Webkit-image-set(url(../images/scrollup.png) 1x, url(../images/scrollup@2x.png) 2x);  /* Image for Retina */
+		background-image : url(../assets/scrollup.png);
+		background-image: -Webkit-image-set(url(../assets/scrollup.png) 1x, url(../assets/scrollup@2x.png) 2x);  /* Image for Retina */
 		background-position: 0% 100%;
 		background-repeat:no-repeat;
 		}
@@ -1051,8 +1051,8 @@ Table of contents
 	
 /* #Email loading style */		
 	.email_loading {
-		background: url(../images/loading.gif) no-repeat center center;
-		background-image: -Webkit-image-set(url(../images/loading.gif) 1x, url(../images/loading@2x.gif) 2x);  /* Image for Retina */
+		background: url(../assets/loading.gif) no-repeat center center;
+		background-image: -Webkit-image-set(url(../assets/loading.gif) 1x, url(../assets/loading@2x.gif) 2x);  /* Image for Retina */
 		height:32px;
 		width:32px; 
 		position:absolute;
@@ -1106,13 +1106,13 @@ Table of contents
 /* #Hand cursor */
 	
 	.fm_drag-cursor{cursor:move;}
-	.fm_drag-cursor{cursor:url("../images/cursors/openhand.png") 8 8,-moz-grab;}
-	.fm_drag-cursor{*cursor:url(../images/cursors/openhand.cur);}
+	.fm_drag-cursor{cursor:url("../assets/cursors/openhand.png") 8 8,-moz-grab;}
+	.fm_drag-cursor{*cursor:url(../assets/cursors/openhand.cur);}
 	.fm_drag-cursor{cursor:url(images/cursors/openhand.cur);}
 	
 	.fm_draging-cursor{cursor:move;}
-	.fm_draging-cursor{cursor:url("../images/cursors/closedhand.png") 8 8,-moz-grabbing;}
-	.fm_draging-cursor{*cursor:url(../images/cursors/closedhand.cur);}
+	.fm_draging-cursor{cursor:url("../assets/cursors/closedhand.png") 8 8,-moz-grabbing;}
+	.fm_draging-cursor{*cursor:url(../assets/cursors/closedhand.cur);}
 	.fm_draging-cursor{cursor:url(images/cursors/closedhand.cur);}		
 	
 	
@@ -1184,8 +1184,8 @@ Table of contents
 	.midVideo{ height:288px; }
 		
 	.video_hover{
-		background:url(../images/video_over.png);
-		background-image: -Webkit-image-set(url(../images/video_over.png) 1x, url(../images/video_over@2x.png) 2x);  /* Image for Retina */
+		background:url(../assets/video_over.png);
+		background-image: -Webkit-image-set(url(../assets/video_over.png) 1x, url(../assets/video_over@2x.png) 2x);  /* Image for Retina */
 		background-position: 0% 0%;
 		cursor:pointer;
 		display:inline-block;
@@ -1225,16 +1225,16 @@ Table of contents
 	
 	.videoUnMute .btn_icon{
 		display: block;
-		background-image : url(../images/video_button.png);
-		background-image: -Webkit-image-set(url(../images/video_button.png) 1x, url(../images/video_button@2x.png) 2x);  /* Image for Retina */
+		background-image : url(../assets/video_button.png);
+		background-image: -Webkit-image-set(url(../assets/video_button.png) 1x, url(../assets/video_button@2x.png) 2x);  /* Image for Retina */
 		background-position: 0px 0px;
 		background-repeat:no-repeat;
 		}
 	
 	.videoMute .btn_icon{
 		display: block;
-		background-image : url(../images/video_button.png);
-		background-image: -Webkit-image-set(url(../images/video_button.png) 1x, url(../images/video_button@2x.png) 2x);  /* Image for Retina */
+		background-image : url(../assets/video_button.png);
+		background-image: -Webkit-image-set(url(../assets/video_button.png) 1x, url(../assets/video_button@2x.png) 2x);  /* Image for Retina */
 		background-position: -32px 0px;
 		background-repeat:no-repeat;
 		}
@@ -1623,8 +1623,8 @@ Table of contents
 		}
 		
 	.previousPage .btn_icon{		
-		background-image:  url(../images/sprite.png);
-		background-image: -Webkit-image-set(url(../images/sprite.png) 1x, url(../images/sprite@2x.png) 2x);  /* Image for Retina */
+		background-image:  url(../assets/sprite.png);
+		background-image: -Webkit-image-set(url(../assets/sprite.png) 1x, url(../assets/sprite@2x.png) 2x);  /* Image for Retina */
 		background-position: 0px 0px;
 		background-repeat:no-repeat;
 			
@@ -1646,8 +1646,8 @@ Table of contents
 		}
 		
 	.nextPage .btn_icon {  
-		background-image:  url(../images/sprite.png);
-		background-image: -Webkit-image-set(url(../images/sprite.png) 1x, url(../images/sprite@2x.png) 2x);  /* Image for Retina */
+		background-image:  url(../assets/sprite.png);
+		background-image: -Webkit-image-set(url(../assets/sprite.png) 1x, url(../assets/sprite@2x.png) 2x);  /* Image for Retina */
 		background-position: -100px 0px;
 		background-repeat:no-repeat;
 		}	

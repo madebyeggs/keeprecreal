@@ -385,8 +385,8 @@ Table of contents
 		
 	/* Next button */	
 	a.next_btn .btn_icon, a.previous_btn .btn_icon{
-		background-image : url(../images/banner_next_previous.png);
-		background-image: -Webkit-image-set(url(../images/banner_next_previous.png) 1x, url(../images/banner_next_previous@2x.png) 2x);  /* Image for Retina */
+		background-image : url(../assets/banner_next_previous.png);
+		background-image: -Webkit-image-set(url(../assets/banner_next_previous.png) 1x, url(../assets/banner_next_previous@2x.png) 2x);  /* Image for Retina */
 		}
 	
 	a.next_btn{
@@ -516,8 +516,8 @@ Table of contents
 		right:0px;
 		width:70px; 
 		height:30px;
-		background-image : url(../images/banner_next_previous.png);
-		background-image: -Webkit-image-set(url(../images/banner_next_previous.png) 1x, url(../images/banner_next_previous@2x.png) 2x);  /* Image for Retina */		
+		background-image : url(../assets/banner_next_previous.png);
+		background-image: -Webkit-image-set(url(../assets/banner_next_previous.png) 1x, url(../assets/banner_next_previous@2x.png) 2x);  /* Image for Retina */		
 		background-repeat:no-repeat;
 		z-index:15;		
 		}
@@ -783,10 +783,10 @@ Table of contents
 		}
 	
 	.hexagon_mask_img{
-		-webkit-mask-box-image: url(../images/home_slider/mask_hexagon.png);
-		-moz-mask-box-image: url(../images/home_slider/mask_hexagon.png);
-		-o-mask-box-image: url(../images/home_slider/mask_hexagon.png);
-		-ms-mask-box-image: url(../images/home_slider/mask_hexagon.png);
+		-webkit-mask-box-image: url(../assets/home_slider/mask_hexagon.png);
+		-moz-mask-box-image: url(../assets/home_slider/mask_hexagon.png);
+		-o-mask-box-image: url(../assets/home_slider/mask_hexagon.png);
+		-ms-mask-box-image: url(../assets/home_slider/mask_hexagon.png);
 		}
 	
 	.hexagon_text{
@@ -1268,7 +1268,7 @@ Table of contents
 		position:relative;
 		height:auto;
 		}
-	.porImgOver	figure { margin-bottom:0px; }
+	.porImgOver	figure { margin:2px; }
 	.overlay_img{
 		left: 0px;
 		top: 0px;
@@ -1494,7 +1494,7 @@ Table of contents
 		left: 0;
 		overflow: hidden;
 		
-		background: url(../images/overlay_zoom.png) no-repeat center center;
+		background: url(../assets/overlay_zoom.png) no-repeat center center;
 		
 		zoom: 1;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -1929,8 +1929,8 @@ Table of contents
                 display: inline-block;
 				width:55px;
 				height:20px;
-				background-image : url(../images/sprite.png);
-				background-image: -Webkit-image-set(url(../images/sprite.png) 1x, url(../images/sprite@2x.png) 2x);  /* Image for Retina */
+				background-image : url(../assets/sprite.png);
+				background-image: -Webkit-image-set(url(../assets/sprite.png) 1x, url(../assets/sprite@2x.png) 2x);  /* Image for Retina */
 				background-position: -90px -265px;
                 content: ' ';
             }
@@ -2640,50 +2640,50 @@ ul.tools li.date {
 		}
 	
 	.itemOver .popup_links .link_audio{
-		background-image : url(../images/hover_icons/icon_audio.png);
-		background-image : -Webkit-image-set(url(../images/hover_icons/icon_audio.png) 1x, url(../images/hover_icons/icon_audio@2x.png) 2x); 
+		background-image : url(../assets/hover_icons/icon_audio.png);
+		background-image : -Webkit-image-set(url(../assets/hover_icons/icon_audio.png) 1x, url(../assets/hover_icons/icon_audio@2x.png) 2x); 
 		background-position: center center;
 		background-repeat:no-repeat;
 		}
 			
 	.itemOver .popup_links .link_image{
-		background-image : url(../images/hover_icons/icon_image.png);
-		background-image : -Webkit-image-set(url(../images/hover_icons/icon_image.png) 1x, url(../images/hover_icons/icon_image@2x.png) 2x); 
+		background-image : url(../assets/hover_icons/icon_image.png);
+		background-image : -Webkit-image-set(url(../assets/hover_icons/icon_image.png) 1x, url(../assets/hover_icons/icon_image@2x.png) 2x); 
 		background-position: center center;
 		background-repeat:no-repeat;
 		}
 	
 	.itemOver .popup_links .link_link{
-		background-image : url(../images/hover_icons/icon_link.png);
-		background-image: -Webkit-image-set(url(../images/hover_icons/icon_link.png) 1x, url(../images/hover_icons/icon_link@2x.png) 2x); 
+		background-image : url(../assets/hover_icons/icon_link.png);
+		background-image: -Webkit-image-set(url(../assets/hover_icons/icon_link.png) 1x, url(../assets/hover_icons/icon_link@2x.png) 2x); 
 		background-position: center center;
 		background-repeat:no-repeat;
 		}
 	
 	.itemOver .popup_links .link_video{
-		background-image : url(../images/hover_icons/icon_video.png);
-		background-image: -Webkit-image-set(url(../images/hover_icons/icon_video.png) 1x, url(../images/hover_icons/icon_video@2x.png) 2x); 
+		background-image : url(../assets/hover_icons/icon_video.png);
+		background-image: -Webkit-image-set(url(../assets/hover_icons/icon_video.png) 1x, url(../assets/hover_icons/icon_video@2x.png) 2x); 
 		background-position: center center;
 		background-repeat:no-repeat;
 		}
 	
 	.itemOver .popup_links .link_desc{
-		background-image : url(../images/hover_icons/icon_desc.png);
-		background-image: -Webkit-image-set(url(../images/hover_icons/icon_desc.png) 1x, url(../images/hover_icons/icon_desc@2x.png) 2x); 
+		background-image : url(../assets/hover_icons/icon_desc.png);
+		background-image: -Webkit-image-set(url(../assets/hover_icons/icon_desc.png) 1x, url(../assets/hover_icons/icon_desc@2x.png) 2x); 
 		background-position: center center;
 		background-repeat:no-repeat;
 		}
 	
 	.itemOver .popup_links .link_gallery{
-		background-image : url(../images/hover_icons/icon_gallery.png);
-		background-image: -Webkit-image-set(url(../images/hover_icons/icon_gallery.png) 1x, url(../images/hover_icons/icon_gallery@2x.png) 2x); 
+		background-image : url(../assets/hover_icons/icon_gallery.png);
+		background-image: -Webkit-image-set(url(../assets/hover_icons/icon_gallery.png) 1x, url(../assets/hover_icons/icon_gallery@2x.png) 2x); 
 		background-position: center center;
 		background-repeat:no-repeat;
 		}
 	
 	.itemOver .popup_links .link_portfolio{
-		background-image : url(../images/hover_icons/icon_portfolio.png);
-		background-image: -Webkit-image-set(url(../images/hover_icons/icon_portfolio.png) 1x, url(../images/hover_icons/icon_portfolio@2x.png) 2x); 
+		background-image : url(../assets/hover_icons/icon_portfolio.png);
+		background-image: -Webkit-image-set(url(../assets/hover_icons/icon_portfolio.png) 1x, url(../assets/hover_icons/icon_portfolio@2x.png) 2x); 
 		background-position: center center;
 		background-repeat:no-repeat;
 		}	

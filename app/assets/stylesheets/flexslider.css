@@ -122,15 +122,15 @@ html[xmlns] .slides {display: block;}
 	
 .white_ver .flex-direction-nav li a,
 .inverseStyle .flex-direction-nav li a {
-	background: url(../images/slider_bg_direction_nav_white.png) no-repeat;
-	background-image: -Webkit-image-set(url(../images/slider_bg_direction_nav_white.png) 1x, url(../images/slider_bg_direction_nav_white@2x.png) 2x);  /* Image for Retina */
+	background: url(../assets/slider_bg_direction_nav_white.png) no-repeat;
+	background-image: -Webkit-image-set(url(../assets/slider_bg_direction_nav_white.png) 1x, url(../assets/slider_bg_direction_nav_white@2x.png) 2x);  /* Image for Retina */
 	background-repeat:no-repeat;	
 	}
 
 .flex-direction-nav li a, 
 .white_ver .inverseStyle .flex-direction-nav li a {
-	background: url(../images/slider_bg_direction_nav.png) no-repeat;
-	background-image: -Webkit-image-set(url(../images/slider_bg_direction_nav.png) 1x, url(../images/slider_bg_direction_nav@2x.png) 2x);  /* Image for Retina */
+	background: url(../assets/slider_bg_direction_nav.png) no-repeat;
+	background-image: -Webkit-image-set(url(../assets/slider_bg_direction_nav.png) 1x, url(../assets/slider_bg_direction_nav@2x.png) 2x);  /* Image for Retina */
 	background-repeat:no-repeat;	
 	}
 	
@@ -224,15 +224,15 @@ html[xmlns] .slides {display: block;}
 	
 .white_ver .flex-control-nav li a,
 .inverseStyle .flex-control-nav li a {
-	background: url(../images/slider_bg_control_nav.png) no-repeat;
-	background-image: -Webkit-image-set(url(../images/slider_bg_control_nav.png) 1x, url(../images/slider_bg_control_nav@2x.png) 2x);  /* Image for Retina */ 
+	background: url(../assets/slider_bg_control_nav.png) no-repeat;
+	background-image: -Webkit-image-set(url(../assets/slider_bg_control_nav.png) 1x, url(../assets/slider_bg_control_nav@2x.png) 2x);  /* Image for Retina */ 
 	}
 	
 
 .flex-control-nav li a, 
 .white_ver .inverseStyle .flex-control-nav li a {
-	background: url(../images/slider_bg_control_nav_white.png) no-repeat;
-	background-image: -Webkit-image-set(url(../images/slider_bg_control_nav_white.png) 1x, url(../images/slider_bg_control_nav_white@2x.png) 2x);  /* Image for Retina */ 
+	background: url(../assets/slider_bg_control_nav_white.png) no-repeat;
+	background-image: -Webkit-image-set(url(../assets/slider_bg_control_nav_white.png) 1x, url(../assets/slider_bg_control_nav_white@2x.png) 2x);  /* Image for Retina */ 
 	}
 	
 .flex-control-nav li a:hover, .white_ver .inverseStyle .flex-control-nav li a:hover {background-position: 0 -18px;}

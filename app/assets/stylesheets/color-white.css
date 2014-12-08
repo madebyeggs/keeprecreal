@@ -209,8 +209,8 @@ body, .pageFade { background-color:#fbfbfb; }
 	}
 
 .header.menuInverse ul.nav li .active + .arrow  {
-	background-image: url(../images/menu_arrow_active.png);
-	background-image: -Webkit-image-set(url(../images/menu_arrow_active.png) 1x, url(../images/menu_arrow_active@2x.png) 2x);	
+	background-image: url(../assets/menu_arrow_active.png);
+	background-image: -Webkit-image-set(url(../assets/menu_arrow_active.png) 1x, url(../assets/menu_arrow_active@2x.png) 2x);	
 	}	
 
 @media only screen and (max-width:991px ) {
@@ -837,12 +837,12 @@ background: radial-gradient(ellipse at center, rgba(234,228,206,1) 0%, rgba(241,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eae4ce', endColorstr='#e1c78e', GradientType=1 ); }	
 .blueBackground{	
 	background: rgba(242,246,248,1);
-	background-image: url(../images/spiral.png), -moz-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(168,220,255,1) 50%, rgba(224,239,249,1) 100%);
-	background-image: url(../images/spiral.png), -webkit-gradient(left top, right bottom, color-stop(0%, rgba(242,246,248,1)), color-stop(50%, rgba(168,220,255,1)), color-stop(100%, rgba(224,239,249,1)));
-	background-image: url(../images/spiral.png), -webkit-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(168,220,255,1) 50%, rgba(224,239,249,1) 100%);
-	background-image: url(../images/spiral.png), -o-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(168,220,255,1) 50%, rgba(224,239,249,1) 100%);
-	background-image: url(../images/spiral.png), -ms-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(168,220,255,1) 50%, rgba(224,239,249,1) 100%);
-	background-image: url(../images/spiral.png), linear-gradient(135deg, rgba(242,246,248,1) 0%, rgba(168,220,255,1) 50%, rgba(224,239,249,1) 100%);
+	background-image: url(../assets/spiral.png), -moz-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(168,220,255,1) 50%, rgba(224,239,249,1) 100%);
+	background-image: url(../assets/spiral.png), -webkit-gradient(left top, right bottom, color-stop(0%, rgba(242,246,248,1)), color-stop(50%, rgba(168,220,255,1)), color-stop(100%, rgba(224,239,249,1)));
+	background-image: url(../assets/spiral.png), -webkit-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(168,220,255,1) 50%, rgba(224,239,249,1) 100%);
+	background-image: url(../assets/spiral.png), -o-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(168,220,255,1) 50%, rgba(224,239,249,1) 100%);
+	background-image: url(../assets/spiral.png), -ms-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(168,220,255,1) 50%, rgba(224,239,249,1) 100%);
+	background-image: url(../assets/spiral.png), linear-gradient(135deg, rgba(242,246,248,1) 0%, rgba(168,220,255,1) 50%, rgba(224,239,249,1) 100%);
 	background-repeat:no-repeat;	
 	background-attachment:scroll;		
 	}
@@ -1025,13 +1025,13 @@ a:hover.thumbClose_btn{ color:#ffffff; }
 .popup_center .inner_cont:hover h4, .popup_center .inner_cont:hover p { color:#000000; }
 
 .white_ver .elastislide-wrapper nav .np_btn .btn_icon{ 
-	background-image: url(../images/nav.png)!important; 
-	background-image: -Webkit-image-set(url(../images/nav.png) 1x, url(../images/nav@2x.png) 2x) !important;  /* Image for Retina */
+	background-image: url(../assets/nav.png)!important; 
+	background-image: -Webkit-image-set(url(../assets/nav.png) 1x, url(../assets/nav@2x.png) 2x) !important;  /* Image for Retina */
 	}
 
 .elastislide-wrapper nav .np_btn .btn_icon{ 
-	background-image: url(../images/nav_white.png)!important; 
-	background-image: -Webkit-image-set(url(../images/nav_white.png) 1x, url(../images/nav_white@2x.png) 2x) !important;  /* Image for Retina */
+	background-image: url(../assets/nav_white.png)!important; 
+	background-image: -Webkit-image-set(url(../assets/nav_white.png) 1x, url(../assets/nav_white@2x.png) 2x) !important;  /* Image for Retina */
 	}
 
 /* #blockquote color */
@@ -1529,7 +1529,8 @@ ul.nav-tabs > li{ border: solid 1px #5a5a5a; }
 	.gallery_navigations{ background-color: rgba(255, 255, 255, .2); }
 	}	
 	
-.page_header { border-bottom:1px #cccccc solid; }	
+.page_header { border-bottom:1px #cccccc solid; }
+.page_header2 { border-bottom:1px #202326 dotted;margin:20px 0 0px 0;padding:10px 0 20px 0; }	
 .page_header.mini { border-bottom:1px #cccccc solid; }
 .page_header.inverse {  border-bottom:1px #dddddd solid; border-bottom:1px rgba(255, 255, 255, .5) solid; }
 
@@ -1561,7 +1562,7 @@ ul.nav-tabs > li{ border: solid 1px #5a5a5a; }
 
 .bg_pattern1{
 	background-color:#ffffff;	
-	background-image : url(../images/bg_pattern1.png);
+	background-image : url(../assets/bg_pattern1.png);
 	background-attachment: scroll !important;		
 	}
 

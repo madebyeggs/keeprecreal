@@ -27,5 +27,6 @@
  *= require flexslider
  *= require supersized.min
  *= require supersized.shutter.min
+ *= require fixer
  *= require_tree .
  */
