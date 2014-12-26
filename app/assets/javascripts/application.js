@@ -37,8 +37,7 @@
 //= require bigvideo
 //= require jquery.slider.min
 //= require main-fm.min
-//= require jquery.jstwitter
-//= require_tree . 
+//= require_tree .
 
 
 function superGalleryInit (){			

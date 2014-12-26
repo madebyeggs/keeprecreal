@@ -1,3 +1,16 @@
+.friends img {max-width:100%;}
+.plus {width:480px !important;margin-top:-90px!important;}
+.plusSmall {width:100% !important;margin-top:-28%!important;}
+.center {text-align:center;}
+
+.imageFade:hover {
+	opacity:0.2;
+	transition: opacity .5s ease-out;
+	-moz-transition: opacity .5s ease-out;
+	-webkit-transition: opacity .5s ease-out;
+	-o-transition: opacity .5s ease-out;
+}
+
 @media only screen and (min-width: 992px) and (max-width:1199px ) {	
 	.page_header2 { border:0;margin:20px 0 0px 0;padding:10px 0 20px 0; }
 }
