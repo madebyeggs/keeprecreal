@@ -11,6 +11,8 @@
 	-o-transition: opacity .5s ease-out;
 }
 
+.bands li {margin-left:30px;list-style-type: circle;}
+
 @media only screen and (min-width: 992px) and (max-width:1199px ) {	
 	.page_header2 { border:0;margin:20px 0 0px 0;padding:10px 0 20px 0; }
 }
