@@ -61,14 +61,7 @@ function superGalleryInit (){
 			
 }
 		
-$(document).ready(function(){
-					
-	/* Twitter initilize */
-			
-	$(function () {
-		// start jqtweet!
-	    JQTWEET.loadTweets( { numTweets: 3 } );
-	});				
+$(document).ready(function(){			
 		
 	/* Site Main plug-in initilize */
 	jQuery(function($){
