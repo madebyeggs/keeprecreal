@@ -116,9 +116,9 @@ Table of contents
 					
 	.logo {
 		position:relative;
-		width:125px;
+		width:100px!important;
 		padding-top:10px; 		
-		padding-bottom:10px; 		
+		padding-bottom:10px;	
 		}
 		
 	.logo img{
