@@ -93,6 +93,8 @@ background_overlay.png: background_overlay-e07f6b7206d9852518edc64022aa0bfd.png
 background_overlay/index.png: background_overlay-e07f6b7206d9852518edc64022aa0bfd.png
 bg.jpg: bg-ac7d2f8a2e592b57b9dd3c9ca005a7c7.jpg
 bg/index.jpg: bg-ac7d2f8a2e592b57b9dd3c9ca005a7c7.jpg
+contact.png: contact-f8dfc27f57a46d9759c62ec22151b9c3.png
+contact/index.png: contact-f8dfc27f57a46d9759c62ec22151b9c3.png
 fancybox/Thumbs.db: fancybox/Thumbs-2fc8bb23251cb66652338d2a6a64769d.db
 fancybox/Thumbs/index.db: fancybox/Thumbs-2fc8bb23251cb66652338d2a6a64769d.db
 fancybox/blank.gif: fancybox/blank-2ebbd7cb21c3980daa0bddcc9c7ce5fc.gif
@@ -181,8 +183,8 @@ home_slider/home_slide_image30.jpg: home_slider/home_slide_image30-5b5d08a23c8d0
 home_slider/home_slide_image30/index.jpg: home_slider/home_slide_image30-5b5d08a23c8d0dbc656eaa4ae7fc45db.jpg
 home_slider/home_slide_image30_s.jpg: home_slider/home_slide_image30_s-328551f7ec4ef86e154eb009d4f30556.jpg
 home_slider/home_slide_image30_s/index.jpg: home_slider/home_slide_image30_s-328551f7ec4ef86e154eb009d4f30556.jpg
-home_slider/home_slide_image3_S.jpg: home_slider/home_slide_image3_S-d917ae320f862c073448796f7af133ce.jpg
-home_slider/home_slide_image3_S/index.jpg: home_slider/home_slide_image3_S-d917ae320f862c073448796f7af133ce.jpg
+home_slider/home_slide_image3_s.jpg: home_slider/home_slide_image3_s-d917ae320f862c073448796f7af133ce.jpg
+home_slider/home_slide_image3_s/index.jpg: home_slider/home_slide_image3_s-d917ae320f862c073448796f7af133ce.jpg
 home_slider/home_slide_image4.jpg: home_slider/home_slide_image4-ee287353dfb07158a0ed115196d2b11b.jpg
 home_slider/home_slide_image4/index.jpg: home_slider/home_slide_image4-ee287353dfb07158a0ed115196d2b11b.jpg
 home_slider/home_slide_image40.jpg: home_slider/home_slide_image40-f0f562406778f95edf632c24ea44a145.jpg
@@ -473,5 +475,5 @@ tom.jpg: tom-9f6dc3e67ac6ea9ad4f1b2828287959d.jpg
 tom/index.jpg: tom-9f6dc3e67ac6ea9ad4f1b2828287959d.jpg
 application.js: application-18e623a2d485d6f2108e1f92800023a8.js
 application/index.js: application-18e623a2d485d6f2108e1f92800023a8.js
-application.css: application-46844b56b37707308f25def7ce215819.css
-application/index.css: application-46844b56b37707308f25def7ce215819.css
+application.css: application-29a87f9a4f96d87771b537ec9ac45456.css
+application/index.css: application-29a87f9a4f96d87771b537ec9ac45456.css
